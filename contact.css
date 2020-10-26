@@ -45,3 +45,18 @@ h2{
   color:limegreen;
 }
 
+.color a{
+  color: limegreen;
+}
+
+@media screen and (max-width:550px)and (min-width:200px){
+
+  h2{
+    border: 1px solid mistyrose;
+    background: mistyrose;
+    border-radius: 5%;
+    padding: 2.7%;
+
+  }
+}
+
