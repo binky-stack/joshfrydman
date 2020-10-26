@@ -76,7 +76,7 @@ h2 a:hover {
   #shape{
   position: relative;
   width: 100%;
-  height: 530px;
+  height: fit-content;
   background: mistyrose;
   border-radius: 50%;
   margin-top: 5%;
