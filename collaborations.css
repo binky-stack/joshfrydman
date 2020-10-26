@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Dosis:wght@200;300;800&display=swap');
+
+:root {
+  --mainColor: midnightblue;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body{
+background-color: #fff7f6;;
+overflow-x: hidden;
+color: midnightblue;
+}
+
+ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  font-family: 'Balsamiq Sans', cursive;;
+}
+
+ul a {
+  text-decoration: none;
+  display: block;
+  padding: 40px 5em 0 0.2em;
+  color: midnightblue;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.box{
+  text-align: center;
+  padding:5em;
+}
+
+h2{
+  font-family: 'Dosis', sans-serif;
+  font-size: 7vw;
+  letter-spacing: 0.4em;
+  z-index: 1;
+}
+
+a{
+  text-decoration:none;
+  color: midnightblue;
+  z-index: 1;
+}
+
+h2 a:hover {
+    color: transparent;
+    -webkit-text-stroke: 2px var(--mainColor);
+  }
+  
+  @supports not(-webkit-text-stroke: 2px red) {
+    a:hover {
+      text-shadow:
+        3px 3px 0 var(--mainColor),
+        -1px -1px 0 var(--mainColor),
+        1px -1px 0 var(--mainColor),
+        -1px 1px 0 var(--mainColor),
+        1px 1px 0 var(--mainColor);
+    }
+  }
+
+  #shape{
+  position: relative;
+  width: 100%;
+  height: 530px;
+  background: mistyrose;
+  border-radius: 50%;
+  margin-top: 5%;
+  }
+
+@media screen and (max-width:768px)and (min-width:200px){
+      h2{
+        
+        }
+}

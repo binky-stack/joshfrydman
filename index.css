@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+  background-color: #fff7f6;;
+  overflow-x: hidden;
+}
+
+ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  font-family: 'Balsamiq Sans', cursive;;
+}
+
+ul a {
+  text-decoration: none;
+  display: block;
+  padding: 40px 5em 0 0.2em;
+  color: midnightblue;
+}
+
+a{
+  text-decoration: none;
+  color: midnightblue;
+}
+
+.container-one, .container-two 
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box, .text, img{
+  display: flex;
+  flex-wrap:wrap;
+  font-size: 2rem;
+  line-height: 1;
+  text-align: center;
+  padding: 1rem;
+  background: mistyrose;
+  border: 3px solid midnightblue;
+  color: midnightblue;
+  margin:50px 3% 6px 3%;
+  justify-content: space-around;
+}
+
+.text{
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding:5rem;
+}
+
+p{
+  font-size: 20px;
+}
+
+.box-two{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row-reverse;
+  font-size: 2rem;
+  line-height: 1;
+  text-align: center;
+  padding: 3rem ;
+  background: mistyrose;
+  border: 3px solid midnightblue;
+  color: midnightblue;
+  margin:50px 3% 6px 3%;
+  justify-content: space-around;
+}
+
+img{
+  max-height: 450px;
+}
+
+.box, .box-two{
+  max-height: 1000px;
+  width: 100%;
+}
+
+footer, .options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: midnightblue;
+}
+
+h3 a{
+  margin: 5px 5px 5px 5px;
+  }
+
+/*media query*/
+
+@media screen and (max-width:768px)and (min-width:200px){
+  
+  body, html{
+    overflow-x: hidden;
+  }
+
+  ul{
+    margin:0 auto;
+  }
+  
+  p{
+    padding-top:25px;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .text{
+    border: none;
+    background: none;
+    margin-top: 0;
+  }
+
+  .box, .box-two{
+    width: 93%;
+    justify-content: center;
+  }
+}

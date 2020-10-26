@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Dosis:wght@200;300;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body{
+background-color: #fff7f6;;
+overflow-x: hidden;
+color: midnightblue;
+}
+
+ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  font-family: 'Balsamiq Sans', cursive;;
+}
+
+ul a {
+  text-decoration: none;
+  display: block;
+  padding: 40px 5em 0 0.2em;
+  color: midnightblue;
+}
+
+section{
+  text-align: left;
+  padding: 6%;
+}
+
+h2{
+  line-height:250%;
+  font-size:6vw;
+  letter-spacing: 0.1em;
+  font-family: "Dosis", sans-serif;
+}
+
+.color{
+  color:limegreen;
+}
+
