@@ -47,8 +47,9 @@ a{
   line-height: 1;
   text-align: center;
   padding: 1rem;
-  background: mistyrose;
-  border: 3px solid midnightblue;
+  background: mistyrose; 
+    /*
+  border: 3px solid midnightblue; */
   color: midnightblue;
   margin:50px 3% 6px 3%;
   justify-content: space-around;
@@ -73,7 +74,9 @@ p{
   text-align: center;
   padding: 3rem ;
   background: mistyrose;
+    /*
   border: 3px solid midnightblue;
+    */
   color: midnightblue;
   margin:50px 3% 6px 3%;
   justify-content: space-around;
