@@ -84,6 +84,7 @@ p{
 
 img{
   max-height: 450px;
+  object-fit: scale-down; max-width: 100%
 }
 
 .box, .box-two{
