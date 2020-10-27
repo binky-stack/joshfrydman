@@ -87,4 +87,8 @@ h2 a:hover {
     background:limegreen;
     height: fit-content;
     }
+    ul{
+    margin:0 auto;
+    display:inherit;
+  }
   }
