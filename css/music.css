@@ -240,7 +240,12 @@ footer a:hover{
  text-align: center;
 }
   
-  .shape-one{
+  
+  .audio{
+    padding-top: 8%;
+  }
+  
+.shape-one{
    display: block;
    text-align: center;
    position: relative;
