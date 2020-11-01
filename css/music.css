@@ -81,7 +81,7 @@ ul li a:hover{
   font-family: "Montserrat",sans-serif;
   font-size: 2vh;
   text-align: left;
-  margin: 30% 10% 0 0;
+  margin: 32% 0 15% 0;
 }
 
 .container{
@@ -237,16 +237,6 @@ footer a:hover{
  text-align: center;
 }
   
-  /* AUDIO STYLING-----------*/
- 
-audio {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-}
-
 
 }
 
