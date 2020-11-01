@@ -226,6 +226,7 @@ footer a:hover{
 
   .mobile-only{
     visibility: visible;
+    text-rendering: optimizeLegibility;
   }
 
 #myBtn{
@@ -241,5 +242,8 @@ footer a:hover{
 @media screen and (max-width:900px)and (min-width:200px){
   footer{
     margin: 5% 0 3% 0;
+  }
+   .mobile-only{
+    font-size: 2.5vh;
   }
 }
