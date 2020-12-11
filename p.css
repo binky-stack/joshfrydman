@@ -41,7 +41,8 @@ a:hover{
   justify-content:center;
 }
 
-.box{/*
+.box{
+  /*
   display: flex;
   flex-wrap: wrap;
   justify-content:flex-start;*/
