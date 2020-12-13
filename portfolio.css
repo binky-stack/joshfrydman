@@ -74,14 +74,19 @@ h2{
   text-transform: uppercase;
 }
 
-h4,.copy {
+h4,.copy,p {
   font-family: 'Sentinel';
   letter-spacing: .15em;
   text-align:center;
   padding-top: 1vh;
+  color: royalblue;
 }
 
 h4 a{
   color: royalblue;
   text-decoration: none;
+}
+
+p a{
+  color:yellow;
 }
