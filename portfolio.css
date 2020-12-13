@@ -74,7 +74,7 @@ h2{
   text-transform: uppercase;
 }
 
-h4,.copy,p {
+h4,.copy,footer p {
   font-family: 'Sentinel';
   letter-spacing: .15em;
   text-align:center;
@@ -87,6 +87,6 @@ h4 a{
   text-decoration: none;
 }
 
-p a{
+footer p a{
   color:yellow;
 }
